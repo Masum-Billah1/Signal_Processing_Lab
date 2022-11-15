@@ -6,9 +6,7 @@ h = [1 2 1 -1];
 xl = length(x);
 hl = length(h);
 
-for i = 1:xl+hl-1;
-    y(i)=0;
-end
+y = zeros(1,(xl+hl-1));
 
 for i = 1:xl
     for j = 1:hl
